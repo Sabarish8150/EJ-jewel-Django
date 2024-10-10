@@ -135,5 +135,5 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
 
-ALLOWED_HOSTS = ['.versel.app']
+ALLOWED_HOSTS = ['ej-jewel-django.vercel.app']
 
