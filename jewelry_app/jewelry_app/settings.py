@@ -135,6 +135,6 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
 
-DEBUG=True
+DEBUG=False
 ALLOWED_HOSTS = ['.versel.app']
 
