@@ -1,1 +1,1 @@
-web: python runserver manage.py --server.port $PORT --server.address 0.0.0.0
+web: gunicorn jewelry_app.wsgi --log-file -
