@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-d!kn@f!^jhj%&rxe+hgw60^bns5b*2e36ejhgtu=53ai%6)n32'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = ['ej-jewel-django.vercel.app']
 
 
 # Application definition
@@ -134,6 +134,4 @@ STATIC_URL = 'static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
-
-ALLOWED_HOSTS = ['ej-jewel-django.vercel.app']
 
